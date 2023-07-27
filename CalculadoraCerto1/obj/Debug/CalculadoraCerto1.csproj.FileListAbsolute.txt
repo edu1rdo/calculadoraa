@@ -1,0 +1,8 @@
+C:\Users\eduardo.csilva52\source\repos\CalculadoraCerto1\CalculadoraCerto1\obj\Debug\CalculadoraCerto1.csproj.AssemblyReference.cache
+C:\Users\eduardo.csilva52\source\repos\CalculadoraCerto1\CalculadoraCerto1\obj\Debug\CalculadoraCerto1.csproj.SuggestedBindingRedirects.cache
+C:\Users\eduardo.csilva52\source\repos\CalculadoraCerto1\CalculadoraCerto1\obj\Debug\CalculadoraCerto1.csproj.CoreCompileInputs.cache
+C:\Users\eduardo.csilva52\source\repos\CalculadoraCerto1\CalculadoraCerto1\bin\Debug\CalculadoraCerto1.exe.config
+C:\Users\eduardo.csilva52\source\repos\CalculadoraCerto1\CalculadoraCerto1\bin\Debug\CalculadoraCerto1.exe
+C:\Users\eduardo.csilva52\source\repos\CalculadoraCerto1\CalculadoraCerto1\bin\Debug\CalculadoraCerto1.pdb
+C:\Users\eduardo.csilva52\source\repos\CalculadoraCerto1\CalculadoraCerto1\obj\Debug\CalculadoraCerto1.exe
+C:\Users\eduardo.csilva52\source\repos\CalculadoraCerto1\CalculadoraCerto1\obj\Debug\CalculadoraCerto1.pdb
