@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -297,16 +298,16 @@ namespace CalculadoraCerto1
 
 
 
-        public double NumerosContar(double a)
+        public double NumerosContar(double o)
         {
-            a = GetSetNum1;
+            o = GetSetNum1;
             double contador = GetSetNum1;
 
             do
             {
-                Console.WriteLine("Contagem: " + GetSetNum1 *10);
-                GetSetNum1 ++;
-                
+                Console.WriteLine("Contagem: " + GetSetNum1 * 10);
+                GetSetNum1++;
+
             } while (GetSetNum1 <= 10);
 
 
@@ -316,10 +317,148 @@ namespace CalculadoraCerto1
 
 
 
-            return a * 10;
-                
-                
+            return o * 10;
+
+
         }
+
+
+
+        //exercicio 9
+
+
+
+
+        public double Exercicio9(double u)
+        {
+
+            double contador = GetSetNum1;
+
+            do
+            {
+                Console.WriteLine("Contagem: " + GetSetNum1);
+                GetSetNum1++;
+                u = GetSetNum1;
+
+            } while (GetSetNum1 <= 1);
+
+            if (GetSetNum1 == 0)
+            {
+                return 0;
+
+            }
+            else
+            {
+                return u;
+            }
+
+        }
+
+        //exercicio 4
+
+        public double Exercicio4()
+        {
+            double soma = 0;
+
+            for (int i = 1; i <= 100; i++)
+            {
+                soma += i;
+            }
+
+            return soma;
+        }
+
+        //exercicio 12
+
+
+        public string Exercicio12()
+        {
+            int soma = 0;
+            int cont = 0;
+            int i = 0;
+            string msg = "";
+            int numP = 0;
+            //Início;Fim;Contagem
+            for (i = 1; i <= 20; i++)
+            {
+                Console.WriteLine(i + "º Número: ");
+                numP = Convert.ToInt32(Console.ReadLine());
+
+
+
+                if (numP >= 0)
+                {
+                    soma += numP;
+                }
+                else
+                {
+                    cont += 1;
+                }
+            }//fim do for
+            msg = "Soma dos positivos: " + numP + "\nContagem dos negativos: " + cont;
+            return msg;
+
+        }
+
+
+
+        public string Exercicio11()
+        {
+            string resultado = "";
+            int maior = 0;
+            int menor = 0;
+            int numero = int.Parse(Console.ReadLine());
+
+
+
+            while (numero != 0)
+            {
+                if (numero > maior)
+                {
+                    maior = numero;
+                }
+
+
+
+                if (numero < menor)
+                {
+                    menor = numero;
+                }
+                Console.WriteLine("Digite um número: ");
+                numero = int.Parse(Console.ReadLine());
+            }
+
+
+
+            resultado = "\n O maio" + maior + " \nO menor" + menor;
+            return resultado;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -336,20 +475,5 @@ namespace CalculadoraCerto1
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}//fim da classe
+ }//fim da classe
 

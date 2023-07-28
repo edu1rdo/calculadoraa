@@ -50,9 +50,14 @@ namespace CalculadoraCerto1
                               "\n11. Decimal para Hexadecimal" +
                               "\n12. Bhaskara" +
                               "\n13. convertendo de binario para exa" +
+                              
                               "\n14. dobro e triplo" +
                               "\n15 positivo" +
                               "\n16.contar" +
+                              "\n17. exercicio 9"   +
+                              "\n18. exercicio 4"  +
+                              "\n19. exercicio12 " +
+                              "\n20. exercicio 11" +
 
                               "\n\nEscolha uma das opções acima: ");
 
@@ -161,12 +166,42 @@ namespace CalculadoraCerto1
                     case 16:
                         Pegarnumero();
                         Console.WriteLine("informe um numero: ");
-                        double a = Convert.ToDouble(Console.ReadLine());
-                        Console.WriteLine(this.calculadora.NumerosContar(a));
+                        double o = Convert.ToDouble(Console.ReadLine());
+                        Console.WriteLine(this.calculadora.NumerosContar(o));
+                        break;
+                       
+                    case 17:
+                        Pegarnumero();
+                        Pegarnumero();
+                        Pegarnumero();
+                       
+                        Console.WriteLine("informe um numero: ");
+                        double u = Convert.ToDouble(Console.ReadLine());
+                        Console.WriteLine(this.calculadora.Exercicio9(u));
                         break;
 
 
+                    case 18:
 
+
+
+
+                        Pegarnumero();    
+                        Console.WriteLine("informe um numero:");
+                       
+                        Console.WriteLine(this.calculadora.Exercicio4());
+                        break;
+                        
+                        case 19:
+
+                          Console.WriteLine(this.calculadora.Exercicio12());
+                            break;
+
+
+
+                    case 20:
+                        Console.WriteLine(this.calculadora.Exercicio11());
+                        break;
 
 
 
